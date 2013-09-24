@@ -9,3 +9,4 @@ Group members:
 * Ben Horne
 * Simon Taranto
 * Quentin Tai
+* Ben Lewis
