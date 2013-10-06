@@ -23,8 +23,8 @@ class Chapter6Test < Minitest::Test
   end
 
   def test_it_has_a_hash_with_correct_type_of_key
-    hash_symbol = [:big_foot => "scary", :locky => "slipper", :jolly_green => "giant"]
-    hash_string = ["big_foot" => "scariest", "locky" => "slippery", "jolly_green" => "giant"]
+    hash_symbol = {:big_foot => "scary", :locky => "slipper", :jolly_green => "giant"}
+    hash_string = {"big_foot" => "scariest", "locky" => "slippery", "jolly_green" => "giant"}
     # write code here to make the tests pass
     result_symbol = 
     result_string = 
