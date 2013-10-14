@@ -32,7 +32,7 @@ class Chapter7Test < Minitest::Test
 
   def test_it_errors_out_when_calling_a_private_method
     bob = Person.new("Robert", "Smith")
-    refute_respond_to bob, #FILL ME IN
+    refute respond_to bob, #FILL ME IN
   end
 
   def test_you_can_still_call_private_methods_with_#finish me
@@ -44,7 +44,7 @@ class Chapter7Test < Minitest::Test
   def test_you_CANNOT_call_private_methods_on_parent_objects_from_child
     bob  = Person.new("Robert", "Smith")
     male = Male.new
-    assert_raises(NoMethodError) { # FILL ME IN }
+    assert_raises(NoMethodError)  # { FILL ME IN }
   end
 
   def test_you_CAN_call_protected_methods_on_parent_objects_from_child
